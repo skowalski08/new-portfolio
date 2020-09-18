@@ -42,14 +42,14 @@ Edit `config.js` to put up your details
 module.exports = {
   siteTitle: 'Gatsby Starter spectral', // <title>
   ...
-  heading: 'Anubhav',
+  heading: 'Sara',
   subHeading: 'Web Developer',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/skowalski08',
     }
     ...
   ],
