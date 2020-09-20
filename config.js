@@ -8,27 +8,27 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Sara Kowalski',
+  subHeading: 'Full Stack Web Developer',
   // social
   socialLinks: [
     {
       style: 'brands',
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/skowalski08',
     },
     {
       style: 'brands',
-      icon: 'fa-twitter',
+      icon: 'fa-linkedin',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://www.linkedin.com/in/sara-k08/',
     },
     {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:test@example.com',
+      url: 'sarakowalski08@gmail.com',
     },
   ],
 };
