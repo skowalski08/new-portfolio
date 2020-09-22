@@ -1577,6 +1577,8 @@
 
 /* Banner */
 
+//NOTE: REFERENCE HERE
+
 	#banner {
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
