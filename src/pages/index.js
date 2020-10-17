@@ -35,16 +35,10 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            A Little About Me
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+          I am a bio/pre-med student turn software engineer. In 2017, I graduated from Queens College with a bachelors in bio/pre-med. However, after working in healthcare, I realized I could put my talents to better use and I felt that tech was just the place for that. I have a diverse set of interests that make me a well rounded engineer, which includes  painting, make up, video games, fashion, and, of course, coding.
           </p>
         </header>
         <ul className="icons major">
