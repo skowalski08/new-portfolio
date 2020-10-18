@@ -11,6 +11,7 @@
     "email": "sarakowalski08@gmail.com"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
     "gatsby-plugin-offline": "^3.1.0",
