@@ -91,8 +91,8 @@ const IndexPage = () => (
           </h2>
           <ul>
             <li>Experimented with Phaser 3 2D game environment</li>
-            <li> Implemented arcade physics, allowing for various sprite interaction resulting in expected outcomes</li>
-            <li> Added level of complexity to game by increasing difficulty as user’s score goes up</li>
+            <li>Implemented arcade physics, allowing for various sprite interaction resulting in expected outcomes</li>
+            <li>Added level of complexity to game by increasing difficulty as user’s score goes up</li>
           </ul>
         </div>
       </section>
@@ -102,14 +102,15 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
+          <a href="https://servdapp.herokuapp.com/">Serv'd</a>
             <br />
-            sed condimentum
+            Full Stack Developer
           </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          <ul>
+            <li>Helped put new technology into effect in the backend, including Koa and Firebase</li>
+            <li>Produced frontend edit account view component using strictly react</li>
+            <li>Implemented Google Oauth sign-in feature, which successfully adds new users to firebase</li>
+          </ul>
         </div>
       </section>
     </section>
