@@ -1,18 +1,9 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import Landing from '../components/Landing'
-import About from '../components/About'
-import Projects from '../components/Projects'
-import WorkExp from '../components/WorkExp'
 
-
-const IndexPage = () => (
-  <Layout>
-    <Landing />
-    <About />
-    <Projects />
-    <WorkExp />
-    {/* <section id="three" className="wrapper style3 special">
+const WorkExp = () => {
+  return (
+    <div>
+    <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>Accumsan mus tortor nunc aliquet</h2>
@@ -93,8 +84,10 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section> */}
-  </Layout>
-);
+    </section>
+    </div>
+  )
+}
 
-export default IndexPage;
+
+export default WorkExp;
