@@ -1,16 +1,17 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
-
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
+import Landing from '../components/Landing'
+import Projects from '../components/Projects'
+
+
 const IndexPage = () => (
   <Layout>
-    <section id="banner">
+    {/* <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -29,9 +30,10 @@ const IndexPage = () => (
           Learn More
         </a>
       </Scroll>
-    </section>
-
-    <section id="one" className="wrapper style1 special">
+    </section> */}
+    <Landing />
+    <Projects />
+    {/* <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
           <h2>
@@ -113,7 +115,7 @@ const IndexPage = () => (
           </ul>
         </div>
       </section>
-    </section>
+    </section> */}
 
     <section id="three" className="wrapper style3 special">
       <div className="inner">
