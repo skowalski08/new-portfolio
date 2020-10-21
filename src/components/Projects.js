@@ -5,7 +5,7 @@ import pic3 from '../assets/images/pic03.jpg';
 
 const Projects = () => {
   return (
-  <div>
+  <div id="projects">
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
