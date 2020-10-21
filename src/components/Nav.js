@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
