@@ -71,7 +71,7 @@ const WorkExp = () => {
               eleifend fringilla.
             </p>
           </header>
-          <ul className="actions stacked">
+          {/* <ul className="actions stacked">
             <li>
               <a href="/#" className="button fit primary">
                 Activate
@@ -82,12 +82,14 @@ const WorkExp = () => {
                 Learn More
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
     </div>
   )
 }
 
+
+//NOTE: buttons above are unnecessary, need to remove buttons and refactor code to suggest people to contact me using the links below.
 
 export default WorkExp;
