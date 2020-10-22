@@ -1,4 +1,5 @@
 import React from 'react'
+import sk from '../assets/images/sk.png'
 
 const About = () => {
   return (
@@ -9,6 +10,9 @@ const About = () => {
             <h2>
               A Little About Me
             </h2>
+            <div className="selfie">
+              <img src={sk} alt="" />
+            </div>
             <p>
             I am a bio/pre-med student turn software engineer. In 2017, I graduated from Queens College with a bachelors in bio/pre-med. However, after working in healthcare, I realized I could put my talents to better use and I felt that tech was just the place for that. As a result, I attended The Grace Hopper Program through Fullstack Academy to help jumpstart my career as a software engineer. I have a diverse set of interests that make me a well rounded engineer, which includes  painting, make up, video games, fashion, and, of course, coding.
             </p>
