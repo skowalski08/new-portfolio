@@ -14,17 +14,12 @@ const Landing = () => {
             <li>
               <Scroll type="id" element="one">
                 <a href="/#" className="button primary">
-                  Explore
+                  About Me
                 </a>
               </Scroll>
             </li>
           </ul>
         </div>
-        <Scroll type="id" element="one">
-          <a href="#one" className="more">
-            Learn More
-          </a>
-        </Scroll>
       </section>
     </div>
   )
