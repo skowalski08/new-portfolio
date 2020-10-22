@@ -982,11 +982,14 @@
 /* Features */
 
 	.features {
-		@include vendor('display', 'flex');
-		@include vendor('flex-wrap', 'wrap');
+		// @include vendor('display', 'flex');
+		// @include vendor('flex-wrap', 'wrap');
+		// @include vendor('justify-content', 'center');
 		@include vendor('justify-content', 'center');
-		list-style: none;
-		padding: 0;
+		@include vendor('display', 'flex');
+		@include vendor('flex-direction', 'column');
+		// list-style: none;
+		// padding: 0;
 		width: 100%;
 
 		li {
@@ -994,7 +997,7 @@
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 100%;
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
@@ -1580,11 +1583,13 @@
 
 	#projects {
 		.inner {
+			padding-bottom: 6em;
 			.major {
 				text-align: center;
 				padding-top: 2em;
 				padding-bottom: 0em;
 			}
+
 		}
 	}
 /* Banner */
