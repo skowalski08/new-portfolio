@@ -1772,12 +1772,13 @@
 	#cta {
 		.inner {
 			@include vendor('display', 'flex');
+			@include vendor('justify-content', 'center');
 			max-width: 45em;
 
 			header {
 				@include vendor('order', '1');
-				padding-right: 3em;
 				width: 70%;
+				text-align: center;
 
 				p {
 					color: inherit;

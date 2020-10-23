@@ -75,31 +75,15 @@ const WorkExp = () => {
       <section id="cta" className="wrapper style4">
         <div className="inner">
           <header>
-            <h2>Arcue ut vel commodo</h2>
+            <h2>Connect with me!</h2>
             <p>
-              Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-              eleifend fringilla.
+              Find me on Linkedin and Github!
             </p>
           </header>
-          {/* <ul className="actions stacked">
-            <li>
-              <a href="/#" className="button fit primary">
-                Activate
-              </a>
-            </li>
-            <li>
-              <a href="/#" className="button fit">
-                Learn More
-              </a>
-            </li>
-          </ul> */}
         </div>
       </section>
     </div>
   )
 }
-
-
-//NOTE: buttons above are unnecessary, need to remove buttons and refactor code to suggest people to contact me using the links below.
 
 export default WorkExp;
