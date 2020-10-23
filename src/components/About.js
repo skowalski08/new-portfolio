@@ -11,6 +11,7 @@ const About = () => {
               A Little About Me
             </h2>
             <div className="selfie">
+              <meta property={sk} content="http://sarakowalski.com" />
               <img src={sk} alt="" />
             </div>
             <p>
