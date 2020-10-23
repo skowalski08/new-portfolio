@@ -20,7 +20,7 @@ const Projects = () => {
             <h2>
               <a href="https://plantasia.herokuapp.com/">Plantasia</a>
               <br />
-              Full Stack Developer
+              <p>Full Stack Developer</p>
             </h2>
             <ul>
               <li>Developed database schemas using Sequelize for easy data manipulations</li>
@@ -37,7 +37,7 @@ const Projects = () => {
             <h2>
             <a href="https://github.com/skowalski08/Brick-Breaker">Brick Breaker</a>
               <br />
-              Solo Developer
+              <p>Solo Developer</p>
             </h2>
             <ul>
               <li>Experimented with Phaser 3 2D game environment</li>
@@ -54,7 +54,7 @@ const Projects = () => {
             <h2>
             <a href="https://servdapp.herokuapp.com/">Serv'd</a>
               <br />
-              Full Stack Developer
+              <p>Full Stack Developer</p>
             </h2>
             <ul>
               <li>Helped put new technology into effect in the backend, including Koa and Firebase</li>
