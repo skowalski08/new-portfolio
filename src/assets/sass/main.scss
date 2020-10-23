@@ -491,21 +491,21 @@
 	// 	}
 	// }
 
-	input[type="checkbox"] {
-		& + label {
-			&:before {
-				border-radius: 3px;
-			}
-		}
-	}
+	// input[type="checkbox"] {
+	// 	& + label {
+	// 		&:before {
+	// 			border-radius: 3px;
+	// 		}
+	// 	}
+	// }
 
-	input[type="radio"] {
-		& + label {
-			&:before {
-				border-radius: 100%;
-			}
-		}
-	}
+	// input[type="radio"] {
+	// 	& + label {
+	// 		&:before {
+	// 			border-radius: 100%;
+	// 		}
+	// 	}
+	// }
 
 	::-webkit-input-placeholder {
 		color: _palette(fg-light) !important;
@@ -1211,23 +1211,23 @@
 				}
 			}
 
-			input[type="checkbox"],
-			input[type="radio"], {
-				& + label {
-					color: _palette($p, fg);
+			// input[type="checkbox"],
+			// input[type="radio"], {
+			// 	& + label {
+			// 		color: _palette($p, fg);
 
-					&:before {
-						background: _palette($p, border-bg);
-					}
-				}
+			// 		&:before {
+			// 			background: _palette($p, border-bg);
+			// 		}
+			// 	}
 
-				&:checked + label {
-					&:before {
-						background: _palette($p, fg-bold);
-						color: _palette($p, bg);
-					}
-				}
-			}
+			// 	&:checked + label {
+			// 		&:before {
+			// 			background: _palette($p, fg-bold);
+			// 			color: _palette($p, bg);
+			// 		}
+			// 	}
+			// }
 
 			::-webkit-input-placeholder {
 				color: _palette($p, fg-light) !important;
@@ -1329,6 +1329,20 @@
 					@include breakpoint('<=small') {
 						border-top-color: _palette($p, border);
 					}
+				}
+
+				.dropdown{
+					position: relative;
+					display: inline-block;
+				}
+
+				.dropdown-content {
+					display: none;
+					z-index: 1;
+				}
+
+				.dropdown:hover .dropdown-content{
+					display: block;
 				}
 			}
 
