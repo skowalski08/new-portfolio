@@ -1,10 +1,10 @@
 {
   "name": "my-portfolio",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
+  "description": "personal portfolio",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
+    "url": "git+https://github.com/sarakowalski08/new-portfolio.git"
   },
   "author": {
     "name": "Sara Kowalski",
@@ -42,12 +42,8 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-spectral"
+    "gatsby-starter"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-spectral/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-spectral#readme"
+  "homepage": "https://github.com/skowalski08"
 }
