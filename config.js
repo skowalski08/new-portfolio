@@ -24,11 +24,11 @@ module.exports = {
       name: 'Twitter',
       url: 'https://www.linkedin.com/in/sara-k08/',
     },
-    {
-      style: 'solid',
-      icon: 'fa-envelope',
-      name: 'Email',
-      url: 'sarakowalski08@gmail.com',
-    },
+    // {
+    //   style: 'solid',
+    //   icon: 'fa-envelope',
+    //   name: 'Email',
+    //   url: 'sarakowalski08@gmail.com',
+    // },
   ],
 };
