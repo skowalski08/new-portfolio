@@ -14,23 +14,6 @@ const Projects = () => {
       <div>
         <section className="spotlight">
           <div className="image">
-            <img src={pic1} alt="" />
-          </div>
-          <div className="content">
-            <h2>
-              <a href="https://plantasia.herokuapp.com/">Plantasia</a>
-              <br />
-              <p>Full Stack Developer</p>
-            </h2>
-            <ul>
-              <li>Developed database schemas using Sequelize for easy data manipulations</li>
-              <li>Expanded the seed file with mock data for demonstration purposes</li>
-              <li>Created react-redux frontend components for user signup and login for seamless user addition to e-commerce database</li>
-            </ul>
-          </div>
-        </section>
-        <section className="spotlight">
-          <div className="image">
             <img src={pic2} alt="" />
           </div>
           <div className="content">
@@ -52,7 +35,7 @@ const Projects = () => {
           </div>
           <div className="content">
             <h2>
-            <a href="https://servdapp.herokuapp.com/">Serv'd</a>
+            <a href="https://github.com/skrobles/serv-d">Serv'd</a>
               <br />
               <p>Full Stack Developer</p>
             </h2>

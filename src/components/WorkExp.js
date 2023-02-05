@@ -9,6 +9,52 @@ const WorkExp = () => {
             <h2>My Work Experience</h2>
           </header>
           <ul className="features">
+          <div className="dropdown">
+              <li className="icon solid fa-flag">
+                <h3>Jericho School District</h3>
+                <p>
+                  Inclusion Aide
+                  <br />
+                  October 2022 - Present
+                </p>
+                <div className="dropdown-content">
+                  <ul>
+                    <li>
+                    Assisting in maintaining a safe learning environment and collect data on student progress
+                    </li>
+                    <li>
+                    Supervising classroom and community activities of individuals ranging from ages 16 to 21
+                    </li>
+                    <li>
+                    Providing modifications to help students complete classwork and internships
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </div>
+            <div className="dropdown">
+              <li className="icon solid fa-heart">
+                <h3>Chembio Diagnostic Systems Inc.</h3>
+                <p>
+                  Quality Control Analyst II
+                  <br />
+                  September 2021 - October 2022
+                </p>
+                <div className="dropdown-content">
+                  <ul>
+                    <li>
+                    Executed various tests to establish lower limit detection of medical devices as well as specificity and reproducibility testing
+                    </li>
+                    <li>
+                    Interpreted manufacturing deviations , out of specification (OOS) investigations, procedure revision, and trend analysis
+                    </li>
+                    <li>
+                    Adopted good manufacturing practices (GMPs) in the development of class 3 medical devices
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </div>
             <div className="dropdown">
               <li className="icon fa-paper-plane">
                 <h3>Vendor in Bloomingdale's</h3>
@@ -28,7 +74,7 @@ const WorkExp = () => {
               </li>
             </div>
             <div className="dropdown">
-              <li className="icon solid fa-heart">
+              <li className="icon solid fa-flag">
                 <h3>St. Francis Hospital</h3>
                 <p>
                   Patient Care Assistant
@@ -40,29 +86,6 @@ const WorkExp = () => {
                     <li>Monitored telemetry rhythms daily for 6-13 patients daily to ensure that there were no unsafe changes in patients heart beat</li>
                     <li>
                     Responded immediately and appropriately during emergency situations, which includes EKGs, checking blood sugar, and even CPR and defibrillation if necessary
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </div>
-            <div className="dropdown">
-              <li className="icon solid fa-flag">
-                <h3>Harbor Freight Tools</h3>
-                <p>
-                  Sales Associate
-                  <br />
-                  July 2014 - September 2016
-                </p>
-                <div className="dropdown-content">
-                  <ul>
-                    <li>
-                    Trained approximately 5 new hires annually on operational procedures, including equipment use and maintenance, customer service, and adhering to safety compliance standards
-                    </li>
-                    <li>
-                    Successfully maintained personal sales goal of over 90% sales in higher price-point warranties
-                    </li>
-                    <li>
-                    Contributed to building the store, including building fixtures and filling product while learning operation procedures
                     </li>
                   </ul>
                 </div>
